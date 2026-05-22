@@ -11,6 +11,11 @@
 *.gif
 simulation_out/
 
+# Keep curated README images.
+!docs/
+!docs/images/
+!docs/images/*.png
+
 # Arduino/build artifacts
 build/
 .pio/

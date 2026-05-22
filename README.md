@@ -40,4 +40,40 @@ python tools/simulate_calibration_first_replay.py \
   --distance-model perpendicular
 ```
 
-Raw scan logs and generated images are intentionally ignored by git.
+Raw scan logs are intentionally ignored by git. Only curated README images under `docs/images/` are tracked.
+
+## Image Gallery
+
+These images are generated from replay/debug runs and are included for README inspection. Raw `.jsonl` scan logs are not included.
+
+### Calibration And Visual Hull
+
+![Calibration-first geometry simulation](docs/images/vl53l7cx_calibration_first_geometry_sim.png)
+
+![Calibration-first visual hull simulation](docs/images/vl53l7cx_calibration_first_visual_hull_sim.png)
+
+![Raw replay point cloud simulation](docs/images/vl53l7cx_raw_replay_point_cloud_sim.png)
+
+![Replay object surface outline](docs/images/vl53l7cx_replay_object_surface_outline.png)
+
+### Raw Scan Diagnostics
+
+![Raw scan 4 replay compare](docs/images/vl53l7cx_raw_scan_4_replay_compare.png)
+
+![Raw scan 5/6 50mm quality](docs/images/vl53l7cx_raw_scan_5_6_50mm_quality.png)
+
+![Raw scan 5/6 horizontal diagnostic](docs/images/vl53l7cx_raw_scan_5_6_horizontal_diagnostic.png)
+
+![Raw scan 5/6 perpendicular quality](docs/images/vl53l7cx_raw_scan_5_6_perpendicular_quality.png)
+
+![Raw scan 5/6 radial quality](docs/images/vl53l7cx_raw_scan_5_6_radial_quality.png)
+
+### No-Background Diagnostics
+
+![Raw scan 8 raw-only diagnostic](docs/images/vl53l7cx_raw_scan_8_raw_only_diagnostic.png)
+
+![Raw scan 8 no-background envelope](docs/images/vl53l7cx_raw_scan_8_no_bg_envelope.png)
+
+![Raw scan 8 no-background rect round](docs/images/vl53l7cx_raw_scan_8_no_bg_rect_round.png)
+
+![Raw scan 8 no-background rect round auto-q](docs/images/vl53l7cx_raw_scan_8_no_bg_rect_round_autoq.png)
