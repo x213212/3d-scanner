@@ -1,0 +1,27 @@
+# Raw scan/debug data
+*.jsonl
+*.csv
+*.ply
+*.txt
+
+# Generated plots/images
+*.png
+*.jpg
+*.jpeg
+*.gif
+simulation_out/
+
+# Arduino/build artifacts
+build/
+.pio/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local backups and temp files
+*.bak*
+*.tmp
+test
