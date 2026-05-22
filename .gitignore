@@ -16,6 +16,14 @@ simulation_out/
 !docs/images/
 !docs/images/*.png
 
+# Keep curated exportable model files.
+!models/
+!models/**/*.ply
+!models/**/*.obj
+!models/**/*.stl
+!models/**/*.glb
+!models/**/*.gltf
+
 # Arduino/build artifacts
 build/
 .pio/

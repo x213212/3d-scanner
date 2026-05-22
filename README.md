@@ -37,10 +37,19 @@ No-background replay:
 python tools/simulate_calibration_first_replay.py \
   --no-bg \
   --object vl53l7cx_raw_scan-object.jsonl \
-  --distance-model perpendicular
+  --distance-model perpendicular \
+  --ply-output models/vl53l7cx_scan8_no_bg_rect_round_estimate.ply
 ```
 
-Raw scan logs are intentionally ignored by git. Only curated README images under `docs/images/` are tracked.
+Raw scan logs are intentionally ignored by git. Curated README images under `docs/images/` and exported models under `models/` are tracked.
+
+## Model Files
+
+- `models/vl53l7cx_scan8_no_bg_rect_round_estimate.ply`
+  - 3D surface point-cloud export from the replay tool.
+  - Generated from `vl53l7cx_raw_scan-8.jsonl` in no-background mode.
+  - Estimate from raw data: `29.28 x 44.61 mm`, 720 points.
+  - This is useful for viewer/testing, but calibrated empty-scan data is still the better source for trusted dimensions.
 
 ## Image Gallery
 
