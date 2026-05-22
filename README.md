@@ -1,6 +1,9 @@
 # 3d-scanner
 
 ESP32-S3 VL53L7CX turntable scanner firmware and raw-scan replay tools.
+<img width="956" height="2048" alt="image" src="https://github.com/user-attachments/assets/132cd7b3-6e6c-4055-b3c4-b28593ea6dc3" />
+<img width="956" height="2048" alt="image" src="https://github.com/user-attachments/assets/f78d5273-fdf5-4e2b-9524-55271bddb7a7" />
+<img width="2048" height="956" alt="image" src="https://github.com/user-attachments/assets/978dbf9e-350f-498d-a727-f3aead71b301" />
 
 ## Contents
 
